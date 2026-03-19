@@ -1,76 +1,173 @@
+<!--<!DOCTYPE html>-->
+<!--overflow: hidden;-->
+<!--max-width: 900px;-->
+<!--width: 90%;-->
+<!--box-shadow: 0 10px 25px rgba(0,0,0,0.1);-->
+<!--display: flex;-->
+<!--flex-direction: column;-->
+<!--}-->
+
+<!--.card img {-->
+<!--width: 100%;-->
+<!--height: auto;-->
+<!--display: block;-->
+<!--}-->
+
+<!--.content {-->
+<!--padding: 20px;-->
+<!--}-->
+
+<!--.content h1 {-->
+<!--margin: 0 0 10px;-->
+<!--font-size: 1.8rem;-->
+<!--}-->
+
+<!--.content p {-->
+<!--margin: 0 0 15px;-->
+<!--color: #555;-->
+<!--line-height: 1.5;-->
+<!--}-->
+
+<!--.content button {-->
+<!--padding: 10px 16px;-->
+<!--border: none;-->
+<!--border-radius: 8px;-->
+<!--background: #007BFF;-->
+<!--color: white;-->
+<!--cursor: pointer;-->
+<!--font-size: 1rem;-->
+<!--}-->
+
+<!--.content button:hover {-->
+<!--background: #0056b3;-->
+<!--}-->
+
+<!--/* Responsive layout for larger screens */-->
+<!--@media (min-width: 768px) {-->
+<!--.card {-->
+<!--flex-direction: row;-->
+<!--}-->
+
+<!--.card img {-->
+<!--width: 50%;-->
+<!--height: 100%;-->
+<!--object-fit: cover;-->
+<!--}-->
+
+<!--.content {-->
+<!--width: 50%;-->
+<!--}-->
+<!--}-->
+<!--</style>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<div class="card">-->
+<!--	<img src="images/thehaive.png" alt="Example Image" />-->
+<!--	<div class="content">-->
+<!--		<h1>Your Title Here</h1>-->
+<!--		<p>-->
+<!--			This is a simple responsive static HTML page. You can describe your image,-->
+<!--			product, or content here. It adapts nicely between mobile and desktop views.-->
+<!--		</p>-->
+<!--		<button>Learn More</button>-->
+<!--	</div>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
-overflow: hidden;
-max-width: 900px;
-width: 90%;
-box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-display: flex;
-flex-direction: column;
-}
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Image Info Page</title>
+	<style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background: #f5f5f5;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+      }
 
-.card img {
-width: 100%;
-height: auto;
-display: block;
-}
+      .card {
+          background: white;
+          border-radius: 16px;
+          overflow: hidden;
+          max-width: 900px;
+          width: 90%;
+          box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+          display: flex;
+          flex-direction: column;
+      }
 
-.content {
-padding: 20px;
-}
+      .card img {
+          width: 100%;
+          height: auto;
+          display: block;
+      }
 
-.content h1 {
-margin: 0 0 10px;
-font-size: 1.8rem;
-}
+      .content {
+          padding: 20px;
+      }
 
-.content p {
-margin: 0 0 15px;
-color: #555;
-line-height: 1.5;
-}
+      .content h1 {
+          margin: 0 0 10px;
+          font-size: 1.8rem;
+      }
 
-.content button {
-padding: 10px 16px;
-border: none;
-border-radius: 8px;
-background: #007BFF;
-color: white;
-cursor: pointer;
-font-size: 1rem;
-}
+      .content p {
+          margin: 0 0 15px;
+          color: #555;
+          line-height: 1.5;
+      }
 
-.content button:hover {
-background: #0056b3;
-}
+      .content button {
+          padding: 10px 16px;
+          border: none;
+          border-radius: 8px;
+          background: #007BFF;
+          color: white;
+          cursor: pointer;
+          font-size: 1rem;
+      }
 
-/* Responsive layout for larger screens */
-@media (min-width: 768px) {
-.card {
-flex-direction: row;
-}
+      .content button:hover {
+          background: #0056b3;
+      }
 
-.card img {
-width: 50%;
-height: 100%;
-object-fit: cover;
-}
+      /* Responsive layout for larger screens */
+      @media (min-width: 768px) {
+          .card {
+              flex-direction: row;
+          }
 
-.content {
-width: 50%;
-}
-}
-</style>
+          .card img {
+              width: 50%;
+              height: 100%;
+              object-fit: cover;
+          }
+
+          .content {
+              width: 50%;
+          }
+      }
+	</style>
 </head>
 <body>
 
 <div class="card">
-	<img src="https://via.placeholder.com/600x400" alt="Example Image" />
+	<img src="images/thehaive.png" alt="Example Image" />
 	<div class="content">
-		<h1>Your Title Here</h1>
+		<h1>Title</h1>
 		<p>
-			This is a simple responsive static HTML page. You can describe your image,
-			product, or content here. It adapts nicely between mobile and desktop views.
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 		</p>
-		<button>Learn More</button>
+		<button>Link</button>
 	</div>
 </div>
 
