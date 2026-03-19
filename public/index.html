@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+overflow: hidden;
+max-width: 900px;
+width: 90%;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+display: flex;
+flex-direction: column;
+}
+
+.card img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.content {
+padding: 20px;
+}
+
+.content h1 {
+margin: 0 0 10px;
+font-size: 1.8rem;
+}
+
+.content p {
+margin: 0 0 15px;
+color: #555;
+line-height: 1.5;
+}
+
+.content button {
+padding: 10px 16px;
+border: none;
+border-radius: 8px;
+background: #007BFF;
+color: white;
+cursor: pointer;
+font-size: 1rem;
+}
+
+.content button:hover {
+background: #0056b3;
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+.card {
+flex-direction: row;
+}
+
+.card img {
+width: 50%;
+height: 100%;
+object-fit: cover;
+}
+
+.content {
+width: 50%;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+	<img src="https://via.placeholder.com/600x400" alt="Example Image" />
+	<div class="content">
+		<h1>Your Title Here</h1>
+		<p>
+			This is a simple responsive static HTML page. You can describe your image,
+			product, or content here. It adapts nicely between mobile and desktop views.
+		</p>
+		<button>Learn More</button>
+	</div>
+</div>
+
+</body>
+</html>
